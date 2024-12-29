@@ -224,11 +224,11 @@ Window:AddMinimizeButton({
     Image = "rbxassetid://15298567397"
   },
   UICorner = {true,
-    -- Corner Properties
+    -- Propriedades da borda
     CornerRadius = UDim.new(0.5, 0)
   },
   UIStroke = {false, {
-    -- Stroke Properties
+    -- Propriedades do Stroke
   }}
 })
 ```
