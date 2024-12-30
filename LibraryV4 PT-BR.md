@@ -11,7 +11,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hacke
 
 Funções da biblioteca
 ```lua
-Library:SetTheme("Nome do Tema") -- https://raw.githubusercontent.com/REDzHUB/RedzLibV4/main/Themes.lua
+Library:SetTheme("Nome do Tema") -- https://raw.githubusercontent.com/hackedx-prototype/RedzLibV4/main/Themes.lua
 
 Library:SetTransparency(0.1) -- 0, 1
 
