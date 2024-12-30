@@ -1,10 +1,15 @@
 # redz Library V4
 ## Library loadstring
+### Old (not working):
 ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV4/main/Source.lua"))()
 ```
+### New:
+```lua
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hackedx-prototype/RedzLibV4/main/Source.lua"))()
+```
 
-library functions
+Library Functions
 ```lua
 Library:SetTheme("Theme Name") -- https://raw.githubusercontent.com/REDzHUB/RedzLibV4/main/Themes.lua
 
