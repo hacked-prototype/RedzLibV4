@@ -202,7 +202,7 @@ local Slider = Tab:AddSlider({
 ```
 ## Caixa de Entrada
 ```lua
-local TextBox = Tap:AddTextBox({"Título", "", " < entrada > ",
+local TextBox = Tab:AddTextBox({"Título", "", " < entrada > ",
 Callback = function()
 
 end
