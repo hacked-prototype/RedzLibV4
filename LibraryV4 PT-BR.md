@@ -1,7 +1,12 @@
 # redz Library V4
 ## Library loadstring
+### Antigo (não funcionando):
 ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV4/main/Source.lua"))()
+```
+### Novo:
+```lua
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hackedx-prototype/RedzLibV4/main/Source.lua"))()
 ```
 
 Funções da biblioteca
