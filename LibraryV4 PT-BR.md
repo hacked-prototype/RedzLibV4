@@ -74,9 +74,9 @@ Window.Dialog:Create({
         end
     },
     Cancel = {
-        Text = "Sim"
+        Text = "Não"
         Callback = function ()
-            print("Sim")
+            print("Não")
         end
     }
 })
