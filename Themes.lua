@@ -1,5 +1,5 @@
 local Themes = {
-    -- Credits: https://github.com/REBzHUB/RedzLibV4/blob/main/Themes.lua
+    -- Original Library's Theme
     ["Default"] = {
         ["Color Hub 1"] = Color3.fromRGB(18, 18, 18),
         ["Color Hub 2"] = Color3.fromRGB(25, 25, 25),
