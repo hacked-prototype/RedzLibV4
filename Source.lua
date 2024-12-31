@@ -7,12 +7,14 @@ local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
 local Player = Players.LocalPlayer
 
+local LibraryRawUrl = "https://raw.githubusercontent.com/hacked-prototype/RedzLibV4/main"
+
 local redzLib = {
   info = {
     Version = "v1.2.2",
     PlaceName = MarketplaceService:GetProductInfo(game.PlaceId).Name
   },
-  Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/hackedx-prototype/RedzLibV4/refs/heads/main/Themes.lua"))(),
+  Themes = loadstring(game:HttpGet(LibraryRawUrl .. "/Themes.lua"))(),
   Flags = {},
   Save = {
     Theme = "Default",
@@ -20,7 +22,7 @@ local redzLib = {
     ScrollSize = 160,
     TransparencyHub = 0.1
   },
-  Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/hackedx-prototype/RedzLibV4/refs/heads/main/Icons.lua"))() --[[
+  Icons = loadstring(game:HttpGet(LibraryRawUrl .. "/Icons.lua"))() --[[
     I found this source on fluent but I don't know who created it
     source -- https://github.com/dawid-scripts/Fluent/blob/master/src/Icons.lua --
   ]],

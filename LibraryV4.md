@@ -6,7 +6,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzH
 ```
 ### New:
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hackedx-prototype/RedzLibV4/main/Source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hacked-prototype/RedzLibV4/main/Source.lua"))()
 ```
 
 Library Functions
