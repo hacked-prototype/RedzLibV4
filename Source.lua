@@ -642,7 +642,7 @@ function redzLib:MakeWindow(Configs)
     Size = UDim2.fromScale(0.35, 0.20),
     Position = UDim2.fromScale(0.1, 0.65),
     BackgroundColor3 = Theme["Color Hub 2"],
-    TextColor3 = Color3.fromRGB(200, 0, 0),
+    TextColor3 = Color3.fromRGB(0, 200, 0),
     Font = Theme["Font"][2],
     TextSize = 18
   }, {
@@ -655,7 +655,7 @@ function redzLib:MakeWindow(Configs)
     Position = UDim2.fromScale(0.9, 0.65),
     AnchorPoint = Vector2.new(1, 0),
     BackgroundColor3 = Theme["Color Hub 2"],
-    TextColor3 = Color3.fromRGB(0, 200, 0),
+    TextColor3 = Color3.fromRGB(200, 0, 0),
     Font = Theme["Font"][2],
     TextSize = 18
   }, {

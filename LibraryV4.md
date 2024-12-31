@@ -62,6 +62,30 @@ local Notify = Library:MakeNotify({
 ]]
 ```
 
+## Dialog
+Show a Dialog
+```lua
+Window.Dialog:Create({
+    Title = "Example Dialog",
+    Confirm = {
+        Text = "Yes",
+        Callback = function ()
+            print("Yes")
+        end
+    },
+    Cancel = {
+        Text = "No"
+        Callback = function ()
+            print("No")
+        end
+    }
+})
+
+--[[
+  Window.Dialog:Wait() -- Wait for the dialog to be closed
+]]
+```
+
 ## Tab
 Create a Tab
 ```lua
