@@ -225,7 +225,7 @@ local Slider = Tab:AddSlider({
 ```
 ## TextBox
 ```lua
-local TextBox = Tap:AddTextBox({"Title", "", " < input > ",
+local TextBox = Tab:AddTextBox({"Title", "", " < input > ",
 Callback = function()
 
 end
